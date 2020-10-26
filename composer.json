@@ -1,0 +1,19 @@
+{
+    "name": "harshilkaneria/unique-string-generator",
+    "description": "A PHP Function for Generating 99.9% a Random String.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harshil Kaneria",
+            "email": "harshilkaneria00@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Unique\\String\\Generator\\": "src"
+        }
+    },
+    "require": {
+    }
+}
