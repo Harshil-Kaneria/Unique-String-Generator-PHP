@@ -18,7 +18,7 @@ A PHP for Generating 99.9% a Random String.
 ## Installation
 
 ```bash
-$ composer require
+$ composer require harshilkaneria/unique-string-generator
 ```
 
 ***
