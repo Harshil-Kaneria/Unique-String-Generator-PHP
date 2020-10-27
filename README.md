@@ -1,6 +1,6 @@
 # Unique-String-Generator
 
-A PHP for Generating 99.9% a Random String.
+A PHP Package for Generating 99.9% a Random String.
 
 ***
 ## Why You Can Use This
