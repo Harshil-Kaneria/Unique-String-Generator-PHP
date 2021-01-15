@@ -1,6 +1,6 @@
 # Unique-String-Generator
 
-A PHP Package for Generating 99.9% a Random String.
+A PHP for Generating 99.9% a Random String.
 
 ***
 ## Why You Can Use This
@@ -18,7 +18,7 @@ A PHP Package for Generating 99.9% a Random String.
 ## Installation
 
 ```bash
-$ composer require harshilkaneria/unique-string-generator
+$ composer require
 ```
 
 ***
@@ -32,12 +32,55 @@ require __DIR__ . '/vendor/autoload.php';
 use Unique\String\Generator\UniqueStringGenerator;
 
 $string = new UniqueStringGenerator();
-echo $string->getstring();
+echo $string->UniqueString();
 
 ?>
-// 'NjAyXzE1OTkxNDc3ODMxMDdfMjA0'
-// 'OTU5XzE1OTkxNDc3ODQxMTZfMTE2'
-// 'MjE3XzE1OTkxNDc3ODUxMTVfNTQ5'
+// NTI2XzE2MTA2ODgxNDJfNDM4
+// OTgyXzE2MTA2ODgxNDJfMTUy
+// NTAzXzE2MTA2ODgxNDJfODc=
+
+<?php
+
+require __DIR__ . '/vendor/autoload.php';
+
+use Unique\String\Generator\UniqueStringGenerator;
+
+$string = new UniqueStringGenerator();
+echo $string->UniqueNumber();
+
+?>
+// 8701610688142513
+// 1821610688142790
+// 1711610688142990
+
+<?php
+
+require __DIR__ . '/vendor/autoload.php';
+
+use Unique\String\Generator\UniqueStringGenerator;
+
+$string = new UniqueStringGenerator();
+echo $string->UniqueStringId();
+
+?>
+// MjMy-MTYxMDY4ODE0Mg==-OTM5
+// MzUx-MTYxMDY4ODE0Mg==-ODM5
+// NDEw-MTYxMDY4ODE0Mg==-MjQ1
+
+<?php
+
+require __DIR__ . '/vendor/autoload.php';
+
+use Unique\String\Generator\UniqueStringGenerator;
+
+$string = new UniqueStringGenerator();
+echo $string->UniqueNumberId();
+
+?>
+// 583-1610688142-795
+// 6-1610688142-312
+// 453-1610688142-657
+
 ```
 
 ***
